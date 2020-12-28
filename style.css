@@ -1,0 +1,75 @@
+body{
+    background: black;
+}
+.content {
+    width: 35%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    margin: 10px;
+
+}
+p{
+    margin: 0px;
+    position: relative;
+    right: -4px;
+    bottom: 6px;
+}
+.fab{
+    font-size: 20px;
+}
+.points {  
+    padding: 0;
+    margin: 10px;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.iconos {
+    display: flex;
+    padding: 10px;
+    
+}
+.fa-heart {
+    margin: 2px;
+    position: relative;
+    left: -6px;
+
+}
+.fa-comment {
+    margin: 2px;
+    position: relative;
+    left: -3px;
+   
+}
+.fa-telegram-plane {
+    padding-right: 80%;
+    margin: 2px;
+    position: relative;
+    bottom: 2px;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.html5{
+    bottom: 2px;
+    content: "\f13b";
+    position: relative;
+    right: 6px;
+}
+.p{
+    position: relative;
+    top: 2px;
+}
